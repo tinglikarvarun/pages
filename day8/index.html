@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>License Registration Form</h1>
+    <form align="center">
+        <label>Name:</label>
+        <input type="text" minlength="3" required><br><br>
+        <label>Email</label>
+        <input type="email" required><br><br>
+        <label>date of birth</label>
+        <input type="date" reqiured><br><br>
+        <label>age</label>
+        <input type="datetime"><br><br>
+        <label>llr no</label> 
+        <input type="text" ><br><br>
+        <label>mobile no</label>
+        <input type="text" maxlength="10" required><br><br>
+        <label>gender</label>
+        <input type="radio" name="gender" value="male" id="male">male
+        <input type="radio" name="gender" id="female" value="female">female
+        <input type="radio" name="gender" id="other" value="other">other<br><br>
+        <label>vechile type</label>
+        <input type="checkbox" name="type" id="type" value="2-wheeler">2-wheeler
+        <input type="checkbox" name="type" id="type" value="4-wheeler">4-wheeler
+        <input type="checkbox" name="type" id="type" value="3-wheeler">3-wheeler
+        <br><br>
+        <label>select vechile</label>
+        <select name="vechile" id=""><option value=""></option>
+            <optgroup label="2-wheeler">
+                <option value="RE">royal enfield</option>
+                <option value="KTM">ktm</option>
+                <option value="TVS">TVS</option>
+                <option value="yamaha">Yamaha</option>
+            </optgroup>
+            <optgroup label="4-wheeler">
+                <option value="tata">tata</option>
+                <option value="mahindra">mahindra</option>
+                <option value="maruthi">maruthi</option>
+            </optgroup>
+            <optgroup label="3-wheeler">
+                <option value="piaggoe">piaggoe</option>
+                <option value="hero">hero</option>
+            </optgroup>
+            
+        </select>
+        <br><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>
