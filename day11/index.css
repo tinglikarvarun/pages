@@ -1,0 +1,22 @@
+body{
+    
+    background:linear-gradient(to right,rgb(255, 98, 0),orange);
+}
+input{
+    background-color: white;
+    color: black;
+    height: 10%;
+    background:radial-gradient(rgb(199, 223, 11),rgb(4, 167, 255));
+
+    
+}
+
+.c{
+    background-color: brown;
+    
+}
+
+#four{
+    background-color: blue;
+    
+}

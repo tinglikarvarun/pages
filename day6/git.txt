@@ -8,4 +8,4 @@
 5.git push -u origin master
 
 
-// git remote remove origin (to delete) 
+// git remote remove origin (to delete)  

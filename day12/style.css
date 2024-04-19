@@ -1,0 +1,48 @@
+/* Body styles */
+body {
+    margin: 90px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background: url(./nWA9qdC9pF.webp) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+nav {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 10px;
+    text-align: center;
+}
+
+nav h2 {
+    margin: 0;
+    font-size: 24px;
+    color: hsl(236, 77%, 35%); 
+    font-variant: small-caps;
+}
+
+
+.name {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.name h4 {
+    font-size: 28px; 
+    font-weight: bold; 
+    color: #fff; 
+   
+}
+
+
+.intro {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic; 
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff; 
+    padding: 20px; 
+}
+
+
