@@ -1,0 +1,26 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height:20px;
+    width:20px;
+    grid-template-areas: "a a"
+                         "a b"
+                         "c b";
+}
+
+.bax{
+    background-color: red;
+    height:50px;
+    width:50px;
+    border:1px solid white;
+}
+
+.b1{
+    grid-area: a;
+}
+.b2{
+    grid-area:b;
+}
+.b2{
+    grid-area:c;
+}

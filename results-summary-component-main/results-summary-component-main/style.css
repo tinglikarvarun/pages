@@ -1,0 +1,117 @@
+body{
+    height:100vh;
+    width:100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main{
+    display: flex; 
+   justify-content: center;
+   flex-direction: row;
+    align-items: center;
+    
+
+}
+.left{
+    float: left;
+    height: 400px;
+    width:200px;
+    background-color:whitesmoke;
+    display: grid;
+    padding: 20px;
+    text-align: center;
+    
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+    height: 400px;
+    width:200px;
+    background-color:  hsl(228, 45%, 44%);
+    color:white;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+   
+}
+
+.reaction{
+   background-color: rgb(247, 215, 215);
+    color:red;
+    padding:10px; 
+    height: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.circle{
+    background-color:hsl(228, 45%, 44%);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    width: 160px;
+    border:2px solid black;
+    
+}
+
+.circle h1{
+    font-size: 400%;
+}
+.circle p{
+    font-size: 80%;
+}
+
+.memory{
+    background-color: rgb(250, 226, 211);
+     color:rgb(246, 165, 67);
+     padding:10px; 
+     height: 25px;
+     border-radius: 10px;
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .verbal{
+    background-color: rgb(196, 232, 197);
+     color:rgb(101, 157, 117);
+     padding:10px; 
+     height: 25px;
+     border-radius: 10px;
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .visual{
+    background-color: rgb(224, 223, 240);
+     color:rgb(66, 46, 211);
+     padding:10px; 
+     height: 25px;
+     border-radius: 10px;
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ 
+
+ .con{
+    background-color:hsl(228, 45%, 44%) ;
+
+    color: beige;
+    padding: 10px;
+    height: 25px;
+    border-radius: 50px;
+ }
+ .con a
+ {
+text-decoration:none ;
+color: aliceblue;
+ }
